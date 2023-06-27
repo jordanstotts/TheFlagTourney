@@ -1,0 +1,35 @@
+/* ============================== GALLERY PAGE ============================== */
+.galleryPage {
+    background-color: #242222;
+}
+
+#galleryLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #242222;
+}
+
+    #galleryLayout img {
+        width: 350px;
+        height: 400px;
+        margin: 10px;
+    }
+.galleryHeader {
+    margin-bottom: 4rem;
+    font-family: "Oleo Script", cursive;
+    font-size: 48pt;
+    text-align: center;
+    color: #efb1f2;
+    margin-top: 100px;
+}
+
+/* =================== Mobile Version =================== */
+@media (max-width: 915px) {
+    #galleryLayout img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px;
+    }
+}
